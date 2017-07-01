@@ -2024,7 +2024,7 @@ class Stage extends DisplayObjectContainer implements IModule {
 	}
 	
 	
-	private function set_frameRate (value:Float):Float {
+	public function set_frameRate (value:Float):Float {
 		
 		if (application != null) {
 			
